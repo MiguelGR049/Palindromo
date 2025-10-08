@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindromo</title>
+</head>
+
+<body>
+
+    <div class="container mt-4">
+        <div class="row mb-3 justify-content-center">
+            <div class="card justify-content-center" style="width: 25rem; background-color: rgba(255, 255, 255, 0.5);">
+                <h1 class="fw-bold text-center">Palindromo</h1>
+                <div class="card-body row justify-content-center">
+
+
+                    <label class="fw-bold" for="palabra">Ingresa una Palabra/Frase</label>
+                    <input name="palabra" id="palabra" class="form-control mb-3" type="text">
+                    <button id="btn_evaluar" class="btn btn-primary mb-3">Evaluar</button>
+
+                    <label class="col mt-2" for="texto" id="evaluado">¿Es palindromo?</label>
+                    <div id="contenido_palindromo" class="justify-content-around border border-primary"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./bundle.js"></script>
+</body>
+
+</html>
